@@ -3,39 +3,18 @@ import CourseFooter from "./courses/CourseFooter";
 import CourseMain from "./courses/CourseMain";
 import Header from "./courses/Header";
 import Explore from "./explore/Explore";
+import Join from "./join/Join";
 
 export default function Main() {
   return (
     <main>
-      {/* <!-- Popular Course Section Start --> */}
       <section class="my-5">
         <Header />
         <CourseMain />
         <CourseFooter />
       </section>
-      {/* <!-- Popular Course Section Start --> */}
-
-      {/* <!-- Explore Course Section Start --> */}
       <Explore />
-      {/* <!-- Explore Course Section End --> */}
-      {/* <!-- Join Section Start --> */}
-      <section class="container my-5 text-white">
-        <div class="d-flex justify-content-between align-items-center p-5 bg-primary bg-opacity-100 rounded-3 flex-md-column text-md-center flex-lg-row flex-column text-center">
-          <div class="join-50">
-            <h2>Ready to join?</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
-            </p>
-          </div>
-          <div class="">
-            <button class="btn btn-lg bg-white text-primary py-2 px-5 rounded-1">
-              Register
-            </button>
-          </div>
-        </div>
-      </section>
-      {/* <!-- Join section End--> */}
+      <Join />
 
       {/* <!-- Students section Start--> */}
       <section class="container my-5">
