@@ -4,6 +4,7 @@ import CourseMain from "./courses/CourseMain";
 import Header from "./courses/Header";
 import Explore from "./explore/Explore";
 import Join from "./join/Join";
+import StudentSection from "./students/StudentSection";
 
 export default function Main() {
   return (
@@ -17,76 +18,7 @@ export default function Main() {
       <Join />
 
       {/* <!-- Students section Start--> */}
-      <section class="container my-5">
-        <header class="text-md-start text-lg-start text-center">
-          <h1>Meet Our Successfull Students</h1>
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout.
-          </p>
-        </header>
-        <main class="my-5">
-          <div class="row gx-4 gy-4">
-            <div class="col-md-6 col-lg-3">
-              <div class="card">
-                <img
-                  src="images/student/student-1.png"
-                  class="card-img-top"
-                  alt="Awlad Hossain"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Awlad Hossain</h5>
-                  <p class="card-text">UIUX Designer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="card">
-                <img
-                  src="images/student/student-2.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Jannatul Islam</h5>
-                  <p class="card-text">Motion Design</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="card">
-                <img
-                  src="images/student/student-3.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Imran Hossain</h5>
-                  <p class="card-text">Graphic Designer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="card">
-                <img
-                  src="images/student/student-4.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Nishi Akter</h5>
-                  <p class="card-text">Web Developer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </main>
-        <footer class="container text-center my-5">
-          <button class="btn btn-primary rounded-1 py-2 px-5 text-white">
-            View All
-          </button>
-        </footer>
-      </section>
+      <StudentSection />
       {/* <!-- Students section End--> */}
 
       {/* <!-- FAQ Start --> */}
